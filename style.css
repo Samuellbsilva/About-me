@@ -1,0 +1,143 @@
+/*  Início do Código                     */
+body{
+    background: -webkit-linear-gradient(180deg,rgb(0, 57, 95) 6%, rgba(0,0,0,1) 100%);
+    background-size: 200% 100%;
+    animation: Roda 8s linear infinite;
+
+}
+/*Nav Bar suspensa */
+header{
+    background: -webkit-linear-gradient(180deg, rgb(2, 34, 44) 6%, rgba(0,0,0,1) 100%);
+    background-size: 200% 100%;
+    animation: Roda 16s linear infinite;
+}
+/*Nav Bar suspensa */
+
+/*conteudo principal*/
+main{
+    padding:5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.img{
+
+display: flex;
+
+
+width: 35vw;
+height: 35vw;
+border-radius: 50%;
+}
+
+.media1{
+
+    flex-direction: row;
+    width: 100%;
+}
+.text{
+
+height: 10%;
+
+
+}
+@keyframes Roda {
+    0%{background-position:0% 50%}
+    25%{background-position:50% 50%}
+    50%{background-position:100% 50%}
+    75%{background-position:50% 50%}
+    100%{background-position:0% 50%}
+}
+.bug{
+
+    font-size: 10vw;
+}
+
+.bug1{
+
+
+    font-size: 2.5vw;
+    
+    
+    }
+
+    .marg{
+
+      margin: 5%;
+    }
+    .ctrlimg{
+        margin-left: auto;
+        margin-right: auto;
+justify-content: center;
+        width: 50%;
+    }
+/*conteudo principal*/
+
+.pad{
+
+    padding: 2%;
+}
+
+
+@media (max-width: 576px) {
+
+    .media1{
+display: flex;
+        flex-direction: column;
+width: 100%;
+    }
+
+    .ctrlimg{
+        width: 30%;
+
+    }
+.bug{
+
+
+font-size: 10vw;
+
+
+}
+.bug1{
+
+
+    font-size: 5vw;
+    
+    
+    }
+    
+.img{
+
+    display: flex;
+    
+    
+    width: 30vw;
+    height: 30vw;
+    border-radius: 50%;
+    }¨
+    .text{
+height: 10%;
+width: 100%;
+    }
+    .marg{
+
+        margin: 0.5%;
+      }
+
+      .pad{
+padding: 1%;
+
+      }
+ }
+
+ @media (max-width: 320px) {
+
+    .pad{
+        padding: 0.8%;
+
+    }
+    body{
+
+        width: 120%;
+    }
+ }
